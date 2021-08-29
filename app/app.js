@@ -8,7 +8,7 @@ angular.module('myApp', [
 ]).
 
 
-config(["$locationProvider", function($locationProvider) {
-  $locationProvider.html5Mode(true);
-}]);
+  config(["$locationProvider", function ($locationProvider) {
+    $locationProvider.html5Mode(true);
+  }]);
 
